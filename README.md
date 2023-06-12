@@ -1,16 +1,18 @@
 # Exp:3 SQL query to show the top n records of the table using Limit method.
-## AIM:
+## Aim:
 To write a sql query to show the top n records of the table using Limit method.
-## PROCEDURE:
-### STEP 1:
-create database ORG.
-### STEP 2:
-create table Worker,Bonus,Title.
-### STEP 3:
+## Algorithm:
+### Step 1:
+Create database ORG.
+### Step 2:
+Create table Worker,Bonus,Title.
+### Step 3:
 Insert Value to the tables.
-### STEP 4:
+### Step 4:
 Select top n records in table using limit method.
-## PROGRAM:
+### Step 5:
+Display the results.
+## Program:
 ```sql
 CREATE DATABASE ORG;
 SHOW DATABASES;
@@ -79,7 +81,7 @@ SELECT *
 FROM Worker
 LIMIT 5;
 ```
-## OUTPUT:
+## Output:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX03/assets/93427303/d7775c06-728f-4fd6-a2c7-11484f9677ff)
-## RESULT:
+## Result:
 A sql query query to show the top n records of the table using Limit method has been executed.
